@@ -671,7 +671,8 @@
               strony dr Daszyńskiej. Tam sama pani doktor szczegółowo opisuje
               działanie kuracji. Na tej stronie możecie też zamówić kurację
               biokatywatorem keratynowym w świetnej promocji. Promocyjna obniżka
-              ceny trwa do końca dnia <strong id="date">31-3-2024</strong>.
+              ceny trwa do końca dnia
+              <strong id="date" class="date">31-3-2024</strong>.
             </p>
 
             <div class="promo-form">
@@ -976,10 +977,56 @@
                 <p>Strona &lt; 1/19 &gt;</p>
               </div>
             </div>
-            <a class="landing-url link-big" href="www.google.com"
-              >Aby skorzystać z bioaktywatora keratynowego w PROMOCJI oraz
-              ekstremalnie wydłużyć i zagęścić rzęsy, kliknij tutaj &gt;&gt;
-            </a>
+            <div class="promo-form">
+              <img
+                src="imgs/product.png"
+                alt="Bioactivator"
+                class="promo-image"
+              />
+
+              <p class="discount-text">Zniżka kończy się za:</p>
+
+              <div id="timer-2" class="timer">00 : 00 : 00</div>
+
+              <div class="timer-label">GODZINY MINUTY SEKUNDY</div>
+
+              <div class="cont-price-name">
+                <div>Stara cena</div>
+                <div>Nova cena</div>
+              </div>
+              <div class="prices">
+                <p class="old-price">$105</p>
+                <p class="new-price">$59</p>
+              </div>
+
+              <form action="mainData/api.php" method="POST" class="form">
+                <label for="name" class="form-label">Imię</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  maxlength="32"
+                />
+
+                <label for="phone" class="form-label">Numer telefonu</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-input"
+                  maxlength="32"
+                  pattern="[\+\(\)\-\d]{7,15}"
+                  title="Numer telefonu może zawierać tylko cyfry, '+', '(', ')', '-'"
+                />
+
+                <button type="submit" class="form-button">Wyślij</button>
+              </form>
+
+              <p class="payment-info">
+                Płacisz za zamówienie dopiero po otrzymaniu go
+              </p>
+            </div>
           </article>
           <aside class="col-lg-4 sidebar mb-5 mb-md-0 pb-4 pb-md-0">
             <div class="mb-4">
