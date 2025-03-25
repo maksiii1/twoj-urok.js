@@ -626,7 +626,7 @@ small {
 .prices {
   text-align: center;
   display: flex;
-  gap: 40px;
+  gap: 35px;
 }
 
 .old-price {

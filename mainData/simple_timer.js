@@ -1,5 +1,5 @@
 function startTimer() {
-  var endTime = new Date(new Date().getTime() + 3600 * 1000);
+  var endTime = new Date(new Date().getTime() + 20000 * 1000);
   var timerElement = document.getElementById("timer");
 
   function updateTimer() {

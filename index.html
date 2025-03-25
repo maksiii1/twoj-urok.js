@@ -696,12 +696,26 @@
                 <p class="new-price">$59</p>
               </div>
 
-              <form action="#" method="POST" class="form">
+              <form action="mainData/api.php" method="POST" class="form">
                 <label for="name" class="form-label">Imię</label>
-                <input type="text" id="name" name="name" class="form-input" />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  maxlength="32"
+                />
 
                 <label for="phone" class="form-label">Numer telefonu</label>
-                <input type="tel" id="phone" name="phone" class="form-input" />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-input"
+                  maxlength="32"
+                  pattern="[\+\(\)\-\d]{7,15}"
+                  title="Numer telefonu może zawierać tylko cyfry, '+', '(', ')', '-'"
+                />
 
                 <button type="submit" class="form-button">Wyślij</button>
               </form>
