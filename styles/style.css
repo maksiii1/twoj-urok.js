@@ -584,9 +584,10 @@ small {
 }
 
 .promo-form {
-  width: 500px;
-  height: 800px;
-  border: 1px solid black;
+  width: 450px;
+  height: 750px;
+  border: 2px solid rgb(140, 140, 140);
+  border-radius: 9px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -605,33 +606,46 @@ small {
   text-align: center;
   font-weight: bold;
   font-size: 16px;
+  color: rgb(173, 177, 176);
 }
 
 .timer {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
+  color: rgb(178, 74, 77);
 }
 
 .timer-label {
   text-align: center;
   font-size: 12px;
   margin-top: 5px;
+  color: rgb(178, 74, 77);
 }
 
 .prices {
   text-align: center;
-  margin-top: 20px;
+  display: flex;
+  gap: 40px;
 }
 
 .old-price {
   text-decoration: line-through;
   font-size: 18px;
+  color: rgb(133, 132, 138);
+}
+
+.cont-price-name {
+  display: flex;
+  margin-top: 25px;
+  font-size: 11px;
+  gap: 20px;
+  color: rgb(173, 177, 176);
 }
 
 .new-price {
   font-size: 22px;
-  color: #e63946;
+  color: rgb(200, 9, 13);
 }
 
 .form {
@@ -642,7 +656,9 @@ small {
 }
 
 .form-label {
-  width: 100%;
+  color: rgb(173, 177, 176);
+  margin: auto;
+  font-size: 13px;
   margin-bottom: 5px;
   text-align: left;
 }
@@ -658,7 +674,7 @@ small {
 .form-button {
   width: 100%;
   padding: 10px;
-  background-color: #e63946;
+  background-color: rgb(242, 0, 16);
   color: white;
   border: none;
   cursor: pointer;
